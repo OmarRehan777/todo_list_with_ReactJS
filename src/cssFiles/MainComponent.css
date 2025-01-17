@@ -1,0 +1,64 @@
+
+
+
+.window {
+    padding: 20px;
+    width : 300px;
+    height : 450px;
+    background-color: var(--fourth);
+    border-radius: 5%;
+
+    /* position */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.window-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: var(--first);
+}
+
+.ToggleButton {
+    width: 100px;
+}
+
+
+
+.add-btn {
+    background-color: var(--fifth);
+    color : white;
+    width: 160px;
+    margin-top: auto;
+}
+
+
+
+.tasks-list {
+    /* background-color: #3083DC; */
+    width : 320px;
+    height: 300px;
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-gutter: stable; 
+}
+

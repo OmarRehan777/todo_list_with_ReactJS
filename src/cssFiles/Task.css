@@ -1,0 +1,57 @@
+
+
+
+
+.container {
+    background-color: var(--first);
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 0 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+.task-icons {
+    width: 101px;
+}
+
+.task-title {
+    /* background-color: rgb(11, 78, 78); */
+    width: 150px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: clip;
+    direction: rtl;
+}
+
+
+.task-description {
+    /* background-color: rgb(14, 58, 58); */
+    width: 150px;
+    font-size: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    direction: rtl;    
+}
+
+
+.icon {
+    margin: -5px;
+}
+
+.iconBtn:hover {
+    transform: scale(1.15);
+}
+
+.iconBtn:active {
+    transform: scale(0.95);
+  }

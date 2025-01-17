@@ -1,0 +1,88 @@
+
+.full-screen {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.full-screen * {
+    color: white;
+
+}
+
+.add-window {
+    border-radius: 10px;
+    background-color: var(--ninth);
+    width : 400px;
+    height : 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    position: absolute;
+    z-index: 3;
+}
+
+.title {
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+label {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: blanchedalmond; */
+}
+
+.field {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width : 350px;
+    caret-color: black ;
+    font-size: 16px;
+    font-weight: 600;
+    direction: rtl;
+    margin-top: -10px;
+
+}
+
+
+
+.name.field {
+    height: 40px;
+    padding: 0 10px 0 10px;
+
+}
+
+
+.description.field {
+    height: 70px;
+    padding: 5px 10px;
+}
+
+.add-window button {
+    color: white;
+    background-color: var(--first);
+    width: 100px;
+    height: 40px;
+    line-height: 0px;
+    margin: 0 30px 0 30px;
+}
+
+
+  
+
