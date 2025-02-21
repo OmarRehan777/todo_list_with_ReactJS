@@ -9,6 +9,7 @@ import { TypeContext } from "../contexts/TypeContext";
 import { useContext, useState, useEffect } from "react";
 
 
+
 export default function MainComponent() {
 
   let {setMode} = useContext(ModeContext);

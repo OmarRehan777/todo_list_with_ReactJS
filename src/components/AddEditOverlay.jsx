@@ -36,7 +36,7 @@ export default function AddEditOverlay() {
 
 
   const addHandler = () => {
-    // if neither the title or the description is empty
+    // if neither the title nor the description is empty
     if (taskData.title && taskData.description){
       let newTask = {...taskData, id : listId.current, progress: "unfinished"};
       setTaskData( (prev) => { return newTask });
